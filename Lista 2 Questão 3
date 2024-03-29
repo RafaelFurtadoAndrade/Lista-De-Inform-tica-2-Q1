@@ -21,3 +21,10 @@ int main() {
 
     return 0;
 }
+Digite o valor do raio: 7
+O diÔmetro Ú: 14.00000
+A ßrea Ú: 153.93791
+
+--------------------------------
+Process exited after 2.657 seconds with return value 0
+Pressione qualquer tecla para continuar. . .
