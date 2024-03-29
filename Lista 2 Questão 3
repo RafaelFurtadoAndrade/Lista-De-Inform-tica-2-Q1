@@ -1,1 +1,23 @@
+#include<iostream>
+using namespace std;
+int main() {
+	// definição do raio
+	int r,z_diametro,z_area;
+	
+	// solicitação pra o usuário digitar o valor do raio
+	cout<< "digite o valor de r";
+	cin>> r;
+	
+	//Cálculo das expressões
+	z_diametro = 2*3.14159*r;
+	z_area= 3.14159*r*r;
+	
+	//Saida dos resultados
+	
+    cout <<"O diametro é: "<<z_diametro<< endl;
+    cout <<"A area é:"<<z_area<< endl;
+    
+return 0;
+	
+}
 
