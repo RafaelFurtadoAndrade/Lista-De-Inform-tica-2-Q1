@@ -1,4 +1,28 @@
 Q 1 Letra x
+Codigo
+#include <iostream>
+using namespace std;
+
+int main(){ 
+// Definição das variáveis
+    int a=7,b=3,c=6,d=2,e=1,z;
+
+    // Expressão algébrica: z = 7+3*6/2-1
+    z = a+b*c/d-e;
+    
+    // Saída do resultado
+    cout << "O resultado da expressao z =7+3*6/2-1;  é: " << z << endl;
+    
+    return 0;
+
+}
+O resultado da expressao z =7+3*6/2-1;  Ú: 15
+
+--------------------------------
+Process exited after 0.1596 seconds with return value 0
+Pressione qualquer tecla para continuar. . .
+
+Q 1 Letra y
 Codigo 
 #include <iostream>
 using namespace std;
@@ -16,3 +40,33 @@ int main(){
     return 0;
 
 }
+O resultado da expressao z =2%2 + 2*2/2;  Ú: 2
+
+--------------------------------
+Process exited after 0.1933 seconds with return value 0
+Pressione qualquer tecla para continuar. . .
+
+Q1 Letra z
+Codigo 
+#include <iostream>
+
+int main() {
+    // Definindo as variáveis
+    int a = 3;
+    int b = 9;
+    
+
+    // Expressão com parênteses e colchetes
+    int resultado = (a * b) * (a +(b*a/a));
+
+    // Imprimindo o resultado
+    std::cout << "O resultado da expressao (3 * 9) * (3 +(9*3/3)) é: " << resultado << std::endl;
+
+    return 0;
+}
+O resultado da expressao (3 * 9) * (3 +(9*3/3)) Ú: 324
+
+--------------------------------
+Process exited after 0.3986 seconds with return value 0
+Pressione qualquer tecla para continuar. . .
+
