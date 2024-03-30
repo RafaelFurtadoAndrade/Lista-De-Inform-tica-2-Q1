@@ -1,1 +1,25 @@
+#include <iostream>
+using namespace std;
 
+int main() {
+    // Tamanho do quadrado
+    int tamanho;
+    
+    cout << "Digite o tamanho do quadrado: ";
+    cout <<"Digite o tamanho do circulo" ;
+    cin >> tamanho;
+    
+    // Desenhar o quadrado
+    for (int i = 0; i < tamanho; i++) {
+        for (int j = 0; j < tamanho; j++) {
+            if (i == 0 || i == tamanho - 1 || j == 0 || j == tamanho - 1) {
+                cout << "* ";
+            } else {
+                cout << "  ";
+            }
+        }
+        cout << endl;
+    }
+    // Desenhar o circulo
+    return 0;
+}
